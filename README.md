@@ -1,4 +1,4 @@
-# 🧠 SELF-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection (ICLR 2024, Oral top 1%)
+#SELF-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection (ICLR 2024, Oral top 1%)
 Self-RAG paper's implementation with **LangGraph** on **VespaDB**.  
 Can be used for **local document RAG** setups.  
 Uses **Ollama Gemma-3** model for lightweight local inference.
@@ -14,11 +14,11 @@ Edit `app.py` and set your local .pdf document paths in the `docs` section.
 ```bash
 ollama pull gemma  # or any model you like but you also have to edit it in the code
 ```
-3. Start VespaDB
+#### 3. Start VespaDB
 ```bash
 python setup_vespa.py  # make sure Docker is running first
 ```
-5. Run the app with Chainlit
+#### 4. Run the app with Chainlit
 ```bash
 chainlit run app.py
 ```
